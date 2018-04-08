@@ -1,0 +1,17 @@
+{
+  "name": "xcf-server",
+  "version": "0.0.1",
+  "description": "下厨房服务端",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "lznism@lznism.com",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "superagent": "^3.8.2"
+  }
+}
